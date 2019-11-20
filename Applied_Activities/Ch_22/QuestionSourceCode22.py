@@ -1,6 +1,6 @@
 class Chapter_22():
 
-        correct = 0
+    correct = 0
 
     def q1():
         #Question: If the curly E field effects charges in the same way as a non-curly E field, which equation can be used to find F caused be curly E field?
@@ -50,6 +50,27 @@ class Chapter_22():
         else:
             print("\nTerrible job. Do it all over again.")
 
+    def q5():
+        #Question: Which measurement tool can be used to measure the current in a loop surrounding a solenoid?
+
+        ans1 = input("a) Vernier Caliper \n\nb) Micrometer\n\nc) Ammeter\n\nd) Voltmeter\n\nanswer: ")
+        if ans1 == "c" or ans1 == "Ammeter" or ans1 == "ammeter":
+            print ("\nSwell!")
+            global x
+            x +=1
+        else:
+            print("\nHorrific. Do it all over again.")
+
+    def q6():
+        #Question: If I1 is constant, will the tool in the question above register current outside of the solenoid?
+
+        ans1 = input("a) No, because... \n\nb) Yes, because...\n\nc) No, because....\n\nd) Cannot be determined\n\nanswer: ")
+        if ans1 == "c" or ans1 == "Ammeter" or ans1 == "ammeter":
+            print ("\nSwell!")
+            global x
+            x +=1
+        else:
+            print("\nHorrific. Do it all over again.")
 
     def grade():
         global correct
