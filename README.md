@@ -4,6 +4,8 @@ This repository contains multiple resources for understanding the topics covered
 
 ## Contents
 
+* ***For Jupyter Notebook help, click [here](JupyterNotebook_HowTo.ipynb).***
+
 * **Applied_Activies**: Within this directory, there are computational activities that apply to the chapters covered in Matter and Interactions, as well as the lecture materials. Contains:
 
 	* Conceptual questions for each chapter
