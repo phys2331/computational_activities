@@ -18,3 +18,10 @@ This repository contains multiple resources for understanding the topics covered
 * **Additional_Resources**: Flow diagrams, equation sheets, and links to helpful sites for this class.
 
 * **Maths_for_Physics**: Explore math for physics, as applied in this class through Python and Excel.
+
+## Contributors
+
+This content was produced by 
+
+* Mary Span
+* Kathryn Harris
