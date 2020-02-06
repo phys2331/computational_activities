@@ -27,3 +27,21 @@ class Vectors():
             print("\nWonderful!")
         else:
             print("\nNot quite. Remember to convert the units. Rerun the cell to try again.")
+
+    def q4():
+        #Question: <-6, -3, 0> + <6, 4, 4>.
+
+        ans1 = input("answer: ")
+        if ans1 == "<-6, -3, 0>" or ans1 == "<-6,-3,0>":
+            print("\nAmazing!")
+        else:
+            print("\nNot quite. Rerun the cell to try again.")
+
+    def q5():
+        #Question: <0, 1, 4> + <6, 4, 4>.
+
+        ans1 = input("answer: ")
+        if ans1 == "<-6, -3, 0>" or ans1 == "<-6,-3,0>":
+            print("\nAmazing!")
+        else:
+            print("\nNot quite. Rerun the cell to try again.")
