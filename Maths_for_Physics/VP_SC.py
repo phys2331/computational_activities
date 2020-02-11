@@ -20,7 +20,7 @@ class Vectors():
             print("\nNot quite. Remember to add each component separately. Rerun the cell to try again.")
 
     def q3():
-        #Question: <-5, 2, 0> + <-15, -2, 0>.
+        #Question: <0, 5, 6> + <15, 25, 76>.
 
         ans1 = input("answer: ")
         if ans1 == "<0.015, 5.025, 6.076> m" or ans1 == "<0.015,5.025,6.076> m":
@@ -29,19 +29,46 @@ class Vectors():
             print("\nNot quite. Remember to convert the units. Rerun the cell to try again.")
 
     def q4():
-        #Question: <-6, -3, 0> + <6, 4, 4>.
+        #Question: <0, 1, 4> + <6, 4, 4>.
 
         ans1 = input("answer: ")
-        if ans1 == "<-6, -3, 0>" or ans1 == "<-6,-3,0>":
+        if ans1 == "<6, 5, 8>" or ans1 == "<6,5,8>":
             print("\nAmazing!")
         else:
             print("\nNot quite. Rerun the cell to try again.")
 
     def q5():
-        #Question: <0, 1, 4> + <6, 4, 4>.
+        #Question: <1, 2, 3> - <5, 6, 7>.
 
         ans1 = input("answer: ")
-        if ans1 == "<-6, -3, 0>" or ans1 == "<-6,-3,0>":
+        if ans1 == "<-4, -4, -4>" or ans1 == "<-4,-4,-4>":
+            print("\nAmazing!")
+        else:
+            print("\nNot quite. Rerun the cell to try again.")
+
+    def q6():
+        #Question: <3, 6, 9> - <3, 2, 1>.
+
+        ans1 = input("answer: ")
+        if ans1 == "<0, 4, 8>" or ans1 == "<0,4,8>":
+            print("\nAmazing!")
+        else:
+            print("\nNot quite. Rerun the cell to try again.")
+
+    def q7():
+        #Question: <10, 16, 35> cm - <56, 14, 12> mm. Answer in meters.
+
+        ans1 = input("answer: ")
+        if ans1 == "<0.044, 0.146, 0.338> m" or ans1 == "<0.044,0.146,0.338> m":
+            print("\nAmazing!")
+        else:
+            print("\nNot quite. Rerun the cell to try again.")
+
+    def q8():
+        #Question: <10, 16, 35> cm - <56, 14, 12> mm. Answer in meters.
+
+        ans1 = input("answer: ")
+        if ans1 == "<0.044, 0.146, 0.338> m" or ans1 == "<0.044,0.146,0.338> m":
             print("\nAmazing!")
         else:
             print("\nNot quite. Rerun the cell to try again.")
