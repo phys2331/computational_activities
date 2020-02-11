@@ -65,10 +65,28 @@ class Vectors():
             print("\nNot quite. Rerun the cell to try again.")
 
     def q8():
-        #Question: <10, 16, 35> cm - <56, 14, 12> mm. Answer in meters.
+        #Question: <67, 15, 5> N/C - <5, 8, 2> kN/C. Answer in N/C.
 
         ans1 = input("answer: ")
-        if ans1 == "<0.044, 0.146, 0.338> m" or ans1 == "<0.044,0.146,0.338> m":
+        if ans1 == "<-4933, -7985, -1995> N/C" or ans1 == "<-4933,-7985,-1995> N/C":
+            print("\nAmazing!")
+        else:
+            print("\nNot quite. Rerun the cell to try again.")
+
+    def q9():
+        #Question: What is q8 in V/m.
+
+        ans1 = input("answer: ")
+        if ans1 == "<-4933, -7985, -1995> V/m" or ans1 == "<-4933,-7985,-1995> V/m":
+            print("\nAmazing!")
+        else:
+            print("\nNot quite. Rerun the cell to try again.")
+
+    def q10():
+        #Question: 5 * <6, 7, 8>.
+
+        ans1 = input("answer: ")
+        if ans1 == "<30, 35, 40> m/s" or ans1 == "<30,35,40> m/s":
             print("\nAmazing!")
         else:
             print("\nNot quite. Rerun the cell to try again.")
