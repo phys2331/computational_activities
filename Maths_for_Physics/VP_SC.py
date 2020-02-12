@@ -185,16 +185,16 @@ class Vectors():
         #Question: <-1, -5, 6> cross <4, -5, 9>
 
         ans1 = input("answer: ")
-        if ans1 == "<-15, 33, 25>" or ans1 == "<-15,33,25>":
+        if ans1 == "-15i + 33j + 25k":
             print("\nAmazing!")
         else:
             print("\nNot quite. Rerun the cell to try again.")
 
-    def q21():
+    def q22():
         #Question: <4, -5, 9> cross <-1, -5, 6>
 
         ans1 = input("answer: ")
-        if ans1 == "<15, -33, -25>" or ans1 == "<15,-33,-25>":
+        if ans1 == "15i - 33j - 25k":
             print("\nAmazing!")
         else:
             print("\nNot quite. Rerun the cell to try again.")
